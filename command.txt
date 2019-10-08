@@ -1,0 +1,31 @@
+git config --global user.email "123sheeshpalsinghsaini@gmail.com"
+git config --global user.name "sheeshpal singh saini"
+
+
+
+Learn git part -1:
+1)git init(user for include for git project)
+2)git add [filename] || -A// git add -A(for all file)
+3)git status(it show status )
+4)git commit -m "msg"(it also changed and make a snapshor)
+5)git remote add origin repoName(repository url name)//user of link to git hub
+6)git push origin master//for show in git hub
+7)git clone repoName//for download file from git hub
+8)git pull origin master
+
+
+
+git branch(show all branch show * where you are currently present
+git branch nameofbranch(for making branching)
+git checkout brachname(where do you go)
+git merge branchname(which brach do you want merge)
+
+
+
+if you want serach that who changed and commit in code use log command
+git log
+git log -p
+git log -oneline
+git log -2
+git log -i --grep='text'(use for i ignor case secitive)
+git log -i --author='Ajay Suneja'
